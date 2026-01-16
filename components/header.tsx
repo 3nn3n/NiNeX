@@ -3,7 +3,7 @@ import React from 'react'
 function Header() {
   return (
     <>
-    <div style={{display: 'flex', justifyContent: 'space-between', padding: '20px', color: 'white', backgroundColor: '#351827'}}>
+    <div style={{display: 'flex', justifyContent: 'space-between', padding: '20px', color: 'white'}}>
       <div>
         <h1>NiNeX</h1>
       </div>

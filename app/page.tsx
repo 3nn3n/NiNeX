@@ -59,18 +59,21 @@ Perfect for creators who want professional content without being on screen." />
       </div>
       <Getstartedcard />
       <div style={{display: 'flex', flexDirection: 'row', alignItems: 'center', padding: '40px', color: 'black', gap: '20px'}}>
-        <Pricing heading="Basic Plan" para1="Ideal for individuals" price="16,999" button="Subscribe" pt1="An AI chatbot that can understand your queries" pt2="Personalized recommendations based on your preferences" pt3="Ability to explore the app and its features without any cost" />
-        <Pricing  heading="Pro Plan" para1="Best for professionals" price="25,999" button="Subscribe" pt1="An advanced AI chatbot that can understand complex queries" pt2="An analytics dashboard to track your conversations" pt3="Priority support to solve issues quickly" style={{height: '400px'}} />
-        <Pricing heading="Enterprise Plan" para1="Suitable for businesses" price="39,999" button="Subscribe" pt1="An AI chatbot that can understand your queries" pt2="Personalized recommendations based on your preferences" pt3="Ability to explore the app and its features without any cost" />
+        <Pricing heading="Basic Plan" para1="Ideal for individuals" price="16,999" button="Get Started" pt1="An AI chatbot that can understand your queries" pt2="Personalized recommendations based on your preferences" pt3="Ability to explore the app and its features without any cost" headingColor="#FCD34D"/>
+        <Pricing  heading="Pro Plan" para1="Best for professionals" price="25,999" button="Get Started" pt1="An advanced AI chatbot that can understand complex queries" pt2="An analytics dashboard to track your conversations" pt3="Priority support to solve issues quickly" style={{height: '700px'}} headingColor="#60A5FA" />
+        <Pricing heading="Enterprise Plan" para1="Suitable for businesses" price="39,999" button="Get Started" pt1="An AI chatbot that can understand your queries" pt2="Personalized recommendations based on your preferences" pt3="Ability to explore the app and its features without any cost" headingColor="#FB923C" />
       </div>
-      <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '50px', color: 'white'}}>
-        <p>See the full details</p>
+      <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '10px', color: 'white'}}
+      className="font-bold text-xl underline cursor-pointer"
+      >
+        <p className="hover:text-purple-500">See the full details</p>
       </div>
-      <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '50px', color: 'white', gap: '20px'}}>
-        <div>
-          <p>Ready to get started</p>
+      <div style={{padding: '50px', color: 'white', gap: '20px'}}>
+        <div className="
+        font-thin text-xl pt-10 px-50 mb-10 text-gray-400">
+          <p>[Ready to get started]</p>
         </div>
-        <div>
+        <div className="font-semibold text-5xl mb-10 text-center text-purple-300">
           <h1>What we are working on...</h1>
         </div>
       </div>

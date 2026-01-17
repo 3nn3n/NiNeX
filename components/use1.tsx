@@ -42,7 +42,7 @@ function Use1() {
     <div style={{display: 'flex', justifyContent: 'center', padding: '20px', color: 'white', marginTop: '30px'  }}>
       <div style={{border: '1px solid #7c3aed', padding: '20px', borderRadius: '50px', width: '600px', textAlign: 'start', display: 'flex', alignItems: 'center', gap: '10px'}}>
         <img src='/loading (1).png' className='w-8 h-8' alt='loading'/>
-        <h1 className='font-thin text-xl p-2 text-gray-400'>Your web is generating...</h1>
+        <h1 className='font-thin text-xl p-2 text-gray-400'>NiNeX is generating...</h1>
       </div>
     </div>
 </div>

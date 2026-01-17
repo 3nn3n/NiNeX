@@ -3,7 +3,7 @@ import React from 'react'
 function Use2() {
   return (
 <>
-<div style={{display: 'flex', marginLeft: '60px', flexDirection: 'column', alignItems: 'start', padding: '50px', border: '1px solid gray' , borderRadius: '2rem', height: '700px', width: '550px'}}>
+<div style={{display: 'flex', flexDirection: 'column', alignItems: 'start', padding: '50px', border: '1px solid gray' , borderRadius: '2rem', height: '700px', width: '500px'}}>
   <div className='font-semibold text-white text-xl'>
     <h1>Hey NiNeX, enhance this photo</h1>
   </div>

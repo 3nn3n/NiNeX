@@ -14,20 +14,26 @@ export const dynamic = 'force-dynamic';
 
 export default function Home() {
   return (
-    <>
+    <div className="relative">
+      {/* Left vertical line */}
+      <div className="fixed left-0 top-0 bottom-0 w-px bg-gradient-to-b from-transparent via-purple-500 to-transparent m-1"></div>
+      
+      {/* Right vertical line */}
+      <div className="fixed right-0 top-0 bottom-0 w-px bg-gradient-to-b from-transparent via-purple-500 to-transparent m-1"></div>
+      
     <section>
-      <div>
+      <div className="fixed z-10 top-0 left-0 w-full">
         <Header />
       </div>
     </section>
     <section>
       <div className="overflow-hidden
-      px:4
+      px-4
       sm:px-6
-      mt-10
+      mt-25
       sm:flex
       sm:flex-col
-      gap:4
+      gap-4
       md:justify-center
       md:items-center
      
@@ -41,15 +47,15 @@ export default function Home() {
       <div className="grid grid-cols-2 gap-1 m-20 w-2/3">
       <Features children="Text-to-Video Generation" child="Just enter your text and let AI handle visuals, scenes, and flow automatically." />
       <Features children="Faceless Video Creation" child="
-Perfect for creators who want professional content without being on screen." />
+Perfect for creators who want professional content without being on screen." isSecondColumn={true} />
       <Features children="One-Click Short-Form Videos" child=" Generate vertical, scroll-stopping videos ready to post instantly." />
-      <Features children="Smart Scene & Visual Selection" child="Automatically matches scenes, transitions, & layouts to your script." />
+      <Features children="Smart Scene & Visual Selection" child="Automatically matches scenes, transitions, & layouts to your script." isSecondColumn={true} />
       <Features children="Fast Rendering & Export" child=" No timelines, no complex tools—just instant, high-quality outputs." />
-      <Features children="Cloud-Based Web Studio" child="Your entire video studio runs directly in the browser." />
+      <Features children="Cloud-Based Web Studio" child="Your entire video studio runs directly in the browser." isSecondColumn={true} />
       </div>
       <Chat />
       <Use1 />
-      <div style={{display: 'flex', flexDirection: 'row', gap: '20px', padding: '20px', alignItems: 'stretch', justifyContent: 'center', height: 'auto'}}>
+      <div style={{display: 'flex', flexDirection: 'row', gap: '20px', alignItems: 'stretch', justifyContent: 'center', height: 'auto', margin: '80px'}}>
         <div style={{}}>
           <Use2 />
         </div>
@@ -58,7 +64,7 @@ Perfect for creators who want professional content without being on screen." />
         </div>
       </div>
       <Getstartedcard />
-      <div style={{display: 'flex', flexDirection: 'row', alignItems: 'center', padding: '40px', color: 'black', gap: '20px'}}>
+      <div style={{display: 'flex', flexDirection: 'row', alignItems: 'center', padding: '40px', color: 'black', gap: '20px', margin: '40px', justifyContent: 'center'}}>
         <Pricing heading="Basic Plan" para1="Ideal for individuals" price="16,999" button="Get Started" pt1="An AI chatbot that can understand your queries" pt2="Personalized recommendations based on your preferences" pt3="Ability to explore the app and its features without any cost" headingColor="#FCD34D"/>
         <Pricing  heading="Pro Plan" para1="Best for professionals" price="25,999" button="Get Started" pt1="An advanced AI chatbot that can understand complex queries" pt2="An analytics dashboard to track your conversations" pt3="Priority support to solve issues quickly" style={{height: '700px'}} headingColor="#60A5FA" />
         <Pricing heading="Enterprise Plan" para1="Suitable for businesses" price="39,999" button="Get Started" pt1="An AI chatbot that can understand your queries" pt2="Personalized recommendations based on your preferences" pt3="Ability to explore the app and its features without any cost" headingColor="#FB923C" />
@@ -77,13 +83,13 @@ Perfect for creators who want professional content without being on screen." />
           <h1>What we are working on...</h1>
         </div>
       </div>
-      <div style={{display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '20px', padding: '20px', color: 'white'}}>
-        <Roadmap date="May 2025" status="In Progress" heading="New Feature" para="We are working on a new feature that will enhance user experience." />
-        <Roadmap date="June 2025" status="Completed" heading="Bug Fixes" para="We have fixed several bugs to improve performance."/>
-        <Roadmap date="July 2025" status="Planned" heading="UI Overhaul" para="A complete redesign of the user interface is planned." />
-        <Roadmap date="August 2025" status="In Progress" heading="Performance Improvements" para="Optimizing the app for better speed and responsiveness." />
+      <div style={{display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '10px', padding: '20px', margin: '60px', color: 'white'}}>
+        <Roadmap date="[May 2025]" status="In Progress" heading="New Feature" para="We are working on a new feature that will enhance user experience." withGradient={true} />
+        <Roadmap date="[June 2025]" status="Completed" heading="Bug Fixes" para="We have fixed several bugs to improve performance of the app for greater stability."/>
+        <Roadmap date="[July 2025]" status="Planned" heading="UI Overhaul" para="A complete redesign of the user interface is planned." />
+        <Roadmap date="[August 2025]" status="In Progress" heading="Performance Improvements" para="Optimizing the app for better speed and responsiveness." />
       </div>
 
-    </>
+    </div>
   );
 }

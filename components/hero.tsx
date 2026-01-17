@@ -46,12 +46,18 @@ justify-center px-4 py-20  text-white">
   </div>
   
   <div style={{position: 'relative', zIndex: 1}}
-  className='m-20 text-center text-white font-thin text-2xl'>
+  className='m-20 text-center text-white font-thin text-3xl'>
     <p>Helping people create beautiful content at</p>
   </div>
-  <div style={{display: 'flex', justifyContent: 'space-between', width: '400px', position: 'relative', zIndex: 1}}>
-    <div>Your Logo</div>
-    <div>Your Logo</div>
+  <div style={{display: 'flex', justifyContent: 'space-between', width: '350px', gap: '10px', position: 'relative', zIndex: 1}}>
+    <div className='bg-primary-purple-400 relative rounded-full'>
+      <div className='absolute inset-0 bg-primary-purple-400 blur-3xl opacity-70 scale-150 rounded-full'></div>
+      <img src={'1.png'} className='relative z-10 w-30 h-30'/>
+    </div>
+    <div className='bg-primary-purple-400 relative rounded-full'>
+      <div className='absolute inset-0 bg-primary-purple-400 blur-3xl opacity-70 scale-150 rounded-full'></div>
+      <img src={'4.png'} className='relative z-10 w-30 h-30'/>
+    </div>
   </div>
 </div>
 

@@ -18,11 +18,26 @@ function Pricing({heading, para1, price, button, pt1, pt2, pt3, style, headingCo
       </div>
       <div className='flex flex-col gap-2 mt-10 text-lg text-blue-200'>
         <hr/>
-        <div className='py-3'>{pt1}</div>
+        <div className='py-3 flex items-center gap-2'>
+          <svg className="w-5 h-5 text-purple-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+          </svg>
+          {pt1}
+        </div>
         <hr/>
-        <div>{pt2}</div>
+        <div className='flex items-center gap-2'>
+          <svg className="w-5 h-5 text-purple-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+          </svg>
+          {pt2}
+        </div>
         <hr/>
-        <div>{pt3}</div>
+        <div className='flex items-center gap-2'>
+          <svg className="w-5 h-5 text-purple-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+          </svg>
+          {pt3}
+        </div>
 
       </div>
       

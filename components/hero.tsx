@@ -40,8 +40,7 @@ justify-center px-4 py-20  text-white">
   >
     <div 
      className='m-1 rounded-2xl bg-washed-blue-900/90 w-[calc(100%-0.5rem)] h-[calc(100%-0.5rem)] overflow-hidden relative'>
-    <img className='my-2 mx-2 w-full h-full object-cover rounded-2xl' src="/genvideo.png" alt="Hero Image" />
-    <div className='absolute inset-0 bg-blue-900/50 rounded-2xl'></div>
+    <img className='my-2 mx-2 w-full h-full object-cover rounded-2xl' src="/studio.png" alt="Hero Image" />
   </div>
   </div>
   

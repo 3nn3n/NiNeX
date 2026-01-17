@@ -3,7 +3,7 @@ import React from 'react'
 function Use1() {
   return (
 <>
-<div className='border-gradient border-2 rounded-4xl m-20 bg-gradient-to-br from-primary-purple-700/30 via-primary-purple-900/10 to-background/30'>
+<div className='border-gradient  border-2 rounded-4xl m-20 bg-gradient-to-br from-primary-purple-700/30 via-primary-purple-900/10 to-background/30'>
     <div style={{display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '5px', color: 'white'}} 
     >
       <div className='relative overflow-hidden'>

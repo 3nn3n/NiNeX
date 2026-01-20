@@ -3,7 +3,8 @@ import React from 'react'
 function Use3() {
   return (
 <>
-<div style={{display: 'flex', flexDirection: 'column', alignItems: 'stretch', justifyContent: 'space-between', padding: '20px', border:'1px solid black',height: '100%', borderRadius: '20px'}} className='bg-[#0d0b0f]'>
+<div style={{display: 'flex', flexDirection: 'column', alignItems: 'stretch', justifyContent: 'space-between', padding: '20px', border:'1px solid black',height: '100%', borderRadius: '20px'}} 
+className='bg-linear-to-r from-[#0d0b0f] to-[#15131d]'>
   <div>
     <div className='text-white font-semibold text-3xl pt-10 px-5'>
       <span>Video generation</span>

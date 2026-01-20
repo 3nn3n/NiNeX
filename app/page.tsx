@@ -84,10 +84,10 @@ Perfect for creators who want professional content without being on screen." isS
         </div>
       </div>
       <div style={{display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '10px', padding: '20px', margin: '60px', color: 'white'}}>
-        <Roadmap date="[May 2025]" status="In Progress" heading="New Feature" para="We are working on a new feature that will enhance user experience." withGradient={true} />
-        <Roadmap date="[June 2025]" status="Completed" heading="Bug Fixes" para="We have fixed several bugs to improve performance of the app for greater stability."/>
-        <Roadmap date="[July 2025]" status="Planned" heading="UI Overhaul" para="A complete redesign of the user interface is planned." />
-        <Roadmap date="[August 2025]" status="In Progress" heading="Performance Improvements" para="Optimizing the app for better speed and responsiveness." />
+        <Roadmap date="[May 2025]" status="In Progress" heading="New Feature" para="We are working on a new feature that will enhance user experience." withGradient={true} image={<img src="./R1.png" alt="New Feature" />} />
+        <Roadmap date="[June 2025]" status="Completed" heading="Bug Fixes" para="We have fixed several bugs to improve performance of the app for greater stability." image={<img src="./R3.png" alt="Bug Fixes" />} />
+        <Roadmap date="[July 2025]" status="Planned" heading="UI Overhaul" para="A complete redesign of the user interface is planned." image={<img src="./R2.png" alt="UI Overhaul" />} />
+        <Roadmap date="[August 2025]" status="In Progress" heading="Performance Improvements" para="Optimizing the app for better speed and responsiveness." image={<img src="./R4.png" alt="Performance Improvements" />} />
       </div>
 
     </div>

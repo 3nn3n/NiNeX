@@ -33,11 +33,11 @@ function Chat() {
           </li>
         </ul>
         <div 
-        className='bg-gradient-to-r from-pink-500 via-orange-400 via-yellow-300 to-purple-500 w-40 text-center rounded-2xl h-10 flex items-center justify-center'
+        className='bg-gradient-to-r from-pink-500 via-orange-400 via-yellow-300 to-purple-500 w-40 text-center rounded-3 h-10 flex items-center justify-center'
         >
           <button
-          className='bg-background w-38 hover:w-37 rounded-xl text-purple-400 font-semibold text-xl h-9 hover:h-8 flex items-center justify-center hover:text-white transition-all duration-300'
-          >Try It Now</button>
+          className='bg-background w-38 hover:w-37 rounded-3 text-purple-400 font-semibold text-xs hover:text-sm h-9 hover:h-8 flex items-center justify-center hover:text-white transition-all duration-300'
+          >TRY IT NOW</button>
         </div>
       </div>
     </div>

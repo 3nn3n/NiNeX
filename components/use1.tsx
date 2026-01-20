@@ -12,7 +12,7 @@ function Use1() {
       </div>
       <div>
         <div className='mt-30'>
-          <div className='font-semibold text-4xl text-white ml-10 mb-3'>
+          <div className='font-semibold text-4xl text-white ml-10 mb-3 hover:text-5xl hover:text-primary-purple-400 transition-all duration-300'>
             <h1>Smartest AI</h1>
           </div>
           <div className='font-normal text-normal text-gray-500 ml-10 w-80'>
@@ -22,17 +22,17 @@ function Use1() {
         <div className='font-normal text-lg text-gray-400 ml-7 mt-10'>
           <ul>
             <hr className='border-gray-400 w-80 m-3'/>
-            <li className='mb-3 pl-3 text-xl text-white flex items-center gap-2'>
+            <li className='mb-3 pl-3 text-xl text-white flex items-center gap-2 hover:text-2xl hover:text-primary-purple-200 transition-all duration-300'>
               <img src='/check.png' className='w-5 h-5 bg-primary-purple-300' alt='check'/>
               Photo generating
             </li>
             <hr className='border-gray-400 w-80 m-3'/>
-            <li className='mb-3 pl-3 text-xl text-white flex items-center gap-2'>
+            <li className='mb-3 pl-3 text-xl text-white flex items-center gap-2 hover:text-2xl hover:text-primary-purple-200 transition-all duration-300'>
               <img src='/check.png' className='w-5 h-5 bg-primary-purple-300' alt='check'/>
               Video generating
             </li>
             <hr className='border-gray-400 w-80 m-3'/>
-            <li className='mb-3 pl-3 text-xl text-white flex items-center gap-2'>
+            <li className='mb-3 pl-3 text-xl text-white flex items-center gap-2 hover:text-2xl hover:text-primary-purple-200 transition-all duration-300'>
               <img src='/check.png' className='w-5 h-5 bg-primary-purple-300' alt='check'/>
               Audio generating
             </li>
@@ -41,7 +41,9 @@ function Use1() {
       </div>
     </div>
     <div style={{display: 'flex', justifyContent: 'center', padding: '20px', color: 'white'  }}>
-      <div style={{border: '1px solid #7c3aed', padding: '20px', borderRadius: '50px', width: '600px', textAlign: 'start', display: 'flex', alignItems: 'center', gap: '10px'}}>
+      <div style={{border: '1px solid #7c3aed', padding: '15px', borderRadius: '50px', width: '600px', textAlign: 'start', display: 'flex', alignItems: 'center', gap: '10px'}}
+      className='hover:shadow-lg hover:shadow-purple-500/50 transition-all duration-300'
+      >
         <img src='/loading (1).png' className='w-8 h-8' alt='loading'/>
         <h1 className='font-thin text-xl p-2 text-gray-400'>NiNeX is generating...</h1>
       </div>

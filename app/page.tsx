@@ -51,7 +51,7 @@ Perfect for creators who want professional content without being on screen." isS
       <Features children="One-Click Short-Form Videos" child=" Generate vertical, scroll-stopping videos ready to post instantly." />
       <Features children="Smart Scene & Visual Selection" child="Automatically matches scenes, transitions, & layouts to your script." isSecondColumn={true} />
       <Features children="Fast Rendering & Export" child=" No timelines, no complex tools—just instant, high-quality outputs." />
-      <Features children="Cloud-Based Web Studio" child="Your entire video studio runs directly in the browser." isSecondColumn={true} />
+      <Features children="Cloud-Based Web Studio" child="Your entire video studio runs directly in the browser."/>
       </div>
       <Chat />
       <Use1 />

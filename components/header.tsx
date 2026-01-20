@@ -13,15 +13,23 @@ function Header() {
         <h1>NiNeX</h1>
       </div>
       </div>
-      <div style={{display: 'flex', flexDirection: 'row', gap: '20px'}}>
-        <div>Features</div>
-        <div>Pricing</div>
-        <div>How to use</div>
-        <div>Roadmap</div>
+      <div style={{display: 'flex', flexDirection: 'row', gap: '30px', marginTop: '14px'}}
+      className='font-bold text-gray-600 text-xs'
+      >
+        <div className='hover:text-white transition duration-300'>FEATURES</div>
+        <div className='hover:text-white transition duration-300'>PRICING</div>
+        <div className='hover:text-white transition duration-300'>HOW TO USE</div>
+        <div className='hover:text-white transition duration-300'>ROADMAP</div>
       </div>
-      <div style={{display: 'flex', flexDirection: 'row', gap: '10px'}}>
-        <div>New Account</div>
-        <div>Sign In</div>
+      <div style={{display: 'flex', flexDirection: 'row', gap: '20px', marginRight: '20px', marginTop: '5px', alignItems: 'center'}}
+      className='font-bold text-xs text-gray-600'>
+        <div className='hover:text-white transition duration-300'>NEW ACCOUNT</div>
+        <div className='bg-gradient-to-br from-green-300 via-yellow-300 via-orange-500 to-primary-purple-400 rounded-md rounded-tr-2xl cursor-pointer w-24 h-10 flex items-center justify-center hover:text-white transition duration-300'
+        style={{clipPath: 'polygon(0 0, calc(100% - 12px) 0, 100% 12px, 100% 100%, 0 100%)'}}>
+          <div className='bg-background w-23.5 h-9 hover:w-22 hover:h-8 transition duration-300 rounded-md rounded-tr-2xl flex items-center justify-center text-white hover:text-primary-purple-500 transition duration-300'
+          style={{clipPath: 'polygon(0 0, calc(100% - 12px) 0, 100% 12px, 100% 100%, 0 100%)'}}>
+            SIGN IN
+            </div></div>
       </div>
     </div>
     </>

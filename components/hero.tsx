@@ -29,14 +29,15 @@ justify-center px-4 py-20  text-white">
   </div>
   <div style={{position: 'relative', zIndex: 1}}>
     <button 
-      className='bg-primary-purple-100 text-black m-15 px-5 py-2 rounded-2 border-t-primary-purple-300 border-b-primary-purple-900 border-r-primary-blue-400 border-l-primary-blue-100 border-2 text-2xl font-bold hover:text-white transition-colors duration-300' 
-      style={{clipPath: 'polygon(0 0, calc(100% - 20px) 0, 100% 20px, 100% 100%, 0 100%)'}}
+      className='bg-white w-36 h-10 text-background m-15 px-2 py-2 rounded-2 rounded-tr-3xl text-xs font-bold hover:text-purple-500 transition-all duration-300 hover:text-sm' 
+      style={{clipPath: 'polygon(0 0, calc(100% - 15px) 0, 100% 15px, 100% 100%, 0 100%)'}}
     >
       GET STARTED
+      <div className="absolute left-7/10 top-2 bottom-2 w-px bg-gray-300" />
     </button>
   </div>
   <div style={{position: 'relative', zIndex: 1}}
-  className='mx-10 bg-gradient-to-r from-pink-500 via-yellow-500 to-purple-600 w-[1000px] h-[480px] rounded-2xl' 
+  className='mx-10 bg-linear-to-r from-pink-500 via-yellow-500 to-purple-600 w-250 h-120 rounded-2xl' 
   >
     <div 
      className='m-1 rounded-2xl bg-washed-blue-900/90 w-[calc(100%-0.5rem)] h-[calc(100%-0.5rem)] overflow-hidden relative'>

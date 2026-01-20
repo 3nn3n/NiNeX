@@ -36,7 +36,7 @@ function Chat() {
         className='bg-gradient-to-r from-pink-500 via-orange-400 via-yellow-300 to-purple-500 w-40 text-center rounded-2xl h-10 flex items-center justify-center'
         >
           <button
-          className='bg-background w-38 rounded-xl text-purple-400 font-semibold text-xl h-9 flex items-center justify-center hover:text-white transition-colors duration-300'
+          className='bg-background w-38 hover:w-37 rounded-xl text-purple-400 font-semibold text-xl h-9 hover:h-8 flex items-center justify-center hover:text-white transition-all duration-300'
           >Try It Now</button>
         </div>
       </div>

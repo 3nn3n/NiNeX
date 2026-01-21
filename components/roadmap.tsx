@@ -24,7 +24,7 @@ function Roadmap({date, status, heading, para, style, withGradient, image}: {dat
           }}
         />
         {/* Image on top of grid */}
-        <div className='relative z-10 h-150 w-full overflow-hidden flex justify-center items-center'>
+        <div className='relative z-0 h-150 w-full overflow-hidden flex justify-center items-center'>
           {image}
         </div>
       </div>

@@ -22,7 +22,7 @@ export default function Home() {
       <div className="fixed right-0 top-0 bottom-0 w-px bg-gradient-to-b from-transparent via-purple-500 to-transparent m-1"></div>
       
     <section>
-      <div className="fixed z-10 top-0 left-0 w-full">
+      <div className="fixed z-50 top-0 left-0 w-full">
         <Header />
       </div>
     </section>

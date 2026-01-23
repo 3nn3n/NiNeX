@@ -52,7 +52,7 @@ function Chat() {
 
     </div>
     </div>
-    <div className='font-bold text-center text-6xl text-white'>
+    <div id='how-to-use' className='font-bold text-center text-6xl text-white'>
       <h1><span>Generative AI made for creators.</span></h1>
       <p className='font-normal text-gray-500 text-lg
       '>NiNeX unlocks the potential of Al-powered application</p>

@@ -1,6 +1,15 @@
+'use client'
+
 import React from 'react'
 
 function Header() {
+  const scrollToSection = (sectionId: string) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
+
   return (
     <>
     <div style={{display: 'flex', justifyContent: 'space-between', padding: '20px', color: 'white'}}
@@ -16,10 +25,10 @@ function Header() {
       <div style={{display: 'flex', flexDirection: 'row', gap: '30px', marginTop: '14px'}}
       className='font-bold text-gray-600 text-xs'
       >
-        <div className='hover:text-white transition duration-300'>FEATURES</div>
-        <div className='hover:text-white transition duration-300'>PRICING</div>
-        <div className='hover:text-white transition duration-300'>HOW TO USE</div>
-        <div className='hover:text-white transition duration-300'>ROADMAP</div>
+        <div className='hover:text-white transition duration-300 cursor-pointer' onClick={() => scrollToSection('features')}>FEATURES</div>
+        <div className='hover:text-white transition duration-300 cursor-pointer' onClick={() => scrollToSection('pricing')}>PRICING</div>
+        <div className='hover:text-white transition duration-300 cursor-pointer' onClick={() => scrollToSection('how-to-use')}>HOW TO USE</div>
+        <div className='hover:text-white transition duration-300 cursor-pointer' onClick={() => scrollToSection('roadmap')}>ROADMAP</div>
       </div>
       <div style={{display: 'flex', flexDirection: 'row', gap: '20px', marginRight: '20px', marginTop: '5px', alignItems: 'center'}}
       className='font-bold text-xs text-gray-600'>

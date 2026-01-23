@@ -3,7 +3,7 @@ import React from 'react'
 function Getstartedcard() {
   return (
     <>
-    <div style={{display: 'flex', flexDirection: 'column', alignItems: 'start', padding: '40px', color: 'white', gap: '20px'}}>
+    <div id='pricing' style={{display: 'flex', flexDirection: 'column', alignItems: 'start', padding: '40px', color: 'white', gap: '20px'}}>
       <div>
         <img />
       </div>

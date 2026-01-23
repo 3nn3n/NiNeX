@@ -13,12 +13,12 @@ className='bg-linear-to-r from-[#0d0b0f] to-[#15131d]'>
       <p>The world most powerful Ai photo and video art generation engine . What will you create ?</p>
     </div>
     <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between', gap: '10px', alignItems: 'center', paddingTop: '30px', paddingBottom: '20px', paddingLeft: '10px', paddingRight: '10px'}}>
-      <div style={{border:'gray 1px solid', borderRadius:'10px', width: '50px', textAlign: 'center'}}>A</div>
-      <div style={{border:'gray 1px solid', borderRadius:'10px', width: '50px', textAlign: 'center'}}>B</div>
-      <div style={{border:'gray 1px solid', borderRadius:'10px', width: '50px', textAlign: 'center'}}>C</div>
-      <div style={{border:'gray 1px solid', borderRadius:'10px', width: '50px', textAlign: 'center'}}>D</div>
-      <div style={{border:'gray 1px solid', borderRadius:'10px', width: '50px', textAlign: 'center'}}>E</div>
-    </div>
+      <div><img className='rounded-2xl w-10 hover:w-11 transition-all duration-300' src='m4.png'></img></div>
+      <div><img className='rounded-2xl w-10 hover:w-11 transition-all duration-300' src='m2.png'></img></div>
+      <div><img className='rounded-2xl w-10 hover:w-11 transition-all duration-300' src='m1.png'></img></div>
+      <div><img className='rounded-2xl w-10 hover:w-11 transition-all duration-300' src='m4.png'></img></div>
+      <div><img className='rounded-2xl w-10 hover:w-11 transition-all duration-300' src='m5.png'></img></div>
+    </div>10
   </div>
   <div className='border-2 border-gray-600 rounded-2xl mb-1 p-5 bg-black/15 h-100 flex flex-col items-stretch' >
     <div className='font-thin text-2xl text-white'>

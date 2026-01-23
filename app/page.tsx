@@ -40,9 +40,9 @@ export default function Home() {
       ">
         <Hero />
       </div>
-    </section>
-      <div>
-        <h1 className="text-washed-purple-300 text-7xl font-bold text-center m-10">No cameras<br/> No crews<br/> No complexity</h1>
+    </section >
+      <div id="features">
+        <h1  className="text-washed-purple-300 text-7xl font-bold text-center m-10">No cameras<br/> No crews<br/> No complexity</h1>
       </div>
       <div className="grid grid-cols-2 gap-1 m-20 w-2/3">
       <Features children="Text-to-Video Generation" child="Just enter your text and let AI handle visuals, scenes, and flow automatically." />
@@ -74,7 +74,7 @@ Perfect for creators who want professional content without being on screen." isS
       >
         <p className="hover:text-purple-500">See the full details</p>
       </div>
-      <div style={{padding: '50px', color: 'white', gap: '20px'}}>
+      <div id="roadmap" style={{padding: '50px', color: 'white', gap: '20px'}}>
         <div className="
         font-thin text-xl pt-10 px-50 mb-10 text-gray-400">
           <p>[Ready to get started]</p>
@@ -83,12 +83,18 @@ Perfect for creators who want professional content without being on screen." isS
           <h1>What we are working on...</h1>
         </div>
       </div>
-      <div style={{display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '10px', padding: '20px', margin: '60px', color: 'white'}}>
-        <Roadmap date="[May 2025]" status="In Progress" heading="New Feature" para="We are working on a new feature that will enhance user experience." withGradient={true} image={<img src="./R1.png" alt="New Feature" />} />
-        <Roadmap date="[June 2025]" status="Completed" heading="Bug Fixes" para="We have fixed several bugs to improve performance of the app for greater stability." image={<img src="./R3.png" alt="Bug Fixes" />} />
-        <Roadmap date="[July 2025]" status="Planned" heading="UI Overhaul" para="A complete redesign of the user interface is planned." image={<img src="./R2.png" alt="UI Overhaul" />} />
-        <Roadmap date="[August 2025]" status="In Progress" heading="Performance Improvements" para="Optimizing the app for better speed and responsiveness." image={<img src="./R4.png" alt="Performance Improvements" />} />
+      <div  className="flex flex-row gap-5">
+        <div className="flex flex-col gap-5 ml-20 w-140">
+          <Roadmap date="[May 2025]" status="In Progress" heading="New Feature" para="We are working on a new feature that will enhance user experience." withGradient={true} image={<img src="./R1.png" alt="New Feature" />} />
+          <Roadmap date="[June 2025]" status="Completed" heading="Bug Fixes" para="We have fixed several bugs to improve performance of the app for greater stability." image={<img src="./R3.png" alt="Bug Fixes" />} />
+        </div>
+        <div className="flex flex-col gap-5 mr-20 w-140 mt-40 mb-20">
+          <Roadmap date="[July 2025]" status="Planned" heading="UI Overhaul" para="A complete redesign of the user interface is planned." image={<img src="./R2.png" alt="UI Overhaul" />} />
+          <Roadmap date="[August 2025]" status="In Progress" heading="Performance Improvements" para="Optimizing the app for better speed and responsiveness." image={<img src="./R4.png" alt="Performance Improvements" />} />
       </div>
+      </div>
+        
+        
 
     </div>
   );

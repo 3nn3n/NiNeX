@@ -20,12 +20,20 @@ className='bg-linear-to-r from-[#0d0b0f] to-[#15131d]'>
       <div><img className='rounded-2xl w-10 hover:w-11 transition-all duration-300' src='m5.png'></img></div>
     </div>10
   </div>
-  <div className='border-2 border-gray-600 rounded-2xl mb-1 p-5 bg-black/15 h-100 flex flex-col items-stretch' >
-    <div className='font-thin text-2xl text-white'>
-      <h1>Video generated..!</h1>
-    </div>
-    <div className='text-gray-500 text-start mt-70'
+  <div className='rounded-2xl bg-black/15 h-100 flex flex-col items-stretch' >
+    <div className='relative font-thin text-2xl text-white overflow-hidden h-full z-1 w-full h-full'>
+      <img src='RU2.jpg' className='absolute object-fit-cover w-full h-full rounded-2xl'></img>
+      <div className='relative flex flex-col m-10 p-2 w-70 bg-primary-purple-900 rounded-xl' 
+      style={{clipPath: 'polygon(0 0, 100% 0, 100% 70%, 10% 70%, 0 100%, 0 0)'}}>
+      <h1 className='relative z-3 ml-10 font-thin text-xl text-gray-300'>Video generated..!</h1>
+      <p className='text-gray-400 text-xs font-thin mb-5 ml-50'>JUST NOW</p>
+      </div>
+      <img src='m3.png' className='relative w-10 h-10 -mt-20 ml-20 rounded-2xl'></img>
+
+      <div className='text-gray-500 text-start mt-70 z-4'
     >Seek Button</div>
+    </div>
+    
 
   </div>
 </div>

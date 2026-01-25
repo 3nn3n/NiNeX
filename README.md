@@ -1,1 +1,1 @@
-#NiNeX
+#NiNeX Frontend
